@@ -1,28 +1,24 @@
-package com.chat;
+package com.netty.chat;
 
 import io.netty.bootstrap.Bootstrap;
-import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
-import io.netty.channel.group.ChannelGroup;
-import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
-import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.handler.codec.Delimiters;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
-import io.netty.util.concurrent.GlobalEventExecutor;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class ChatClientB {
+public class ChatClientA {
 
     public static void main(String[] args) {
-        new ChatClientB().start();
+        new ChatClientA().start();
     }
+
 
     public void start() {
         EventLoopGroup group = new NioEventLoopGroup();
@@ -44,9 +40,7 @@ public class ChatClientB {
             Channel channel = future.channel();
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
             while(true){
-                channel.writeAndFlush("ChatClient说：" + in.readLine() + "\r\n");
-
-                System.out.println(channel.remoteAddress());
+                channel.writeAndFlush("ChatClientA说：" + in.readLine() + "\r\n");
             }
         }catch (Exception e){
             e.printStackTrace();
