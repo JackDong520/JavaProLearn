@@ -9,20 +9,25 @@ import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.handler.codec.Delimiters;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
+import org.junit.Test;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ChatClientA {
 
-    public static void main(String[] args) {
-        new ChatClientA().start();
+    private static Channel myChannel;
+
+    public ChatClientA() {
+        this.myChannel = null;
     }
+
 
 
     public void start() {
         EventLoopGroup group = new NioEventLoopGroup();
-        try{
+        try {
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.group(group)
                     .channel(NioSocketChannel.class)
@@ -37,17 +42,34 @@ public class ChatClientA {
                         }
                     });
             ChannelFuture future = bootstrap.connect("localhost", 8080).sync();
-            Channel channel = future.channel();
-            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-            while(true){
-                channel.writeAndFlush("ChatClientA说：" + in.readLine() + "\r\n");
-            }
-        }catch (Exception e){
+            myChannel = future.channel();
+
+//            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+//            while (true) {
+//                writeData(in.readLine());
+//            }
+
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             group.shutdownGracefully();
         }
 
+    }
+    public  void writeData(String data){
+        System.out.println(myChannel.remoteAddress());
+        myChannel.writeAndFlush("ChatClientA说："+ data + "\r\n");
+
+    }
+
+    public static void main(String[] args) throws IOException {
+        // new ChatClientA().start();
+       ChatClientA chatClientA = new ChatClientA();
+        chatClientA.start();
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        while (true) {
+            chatClientA.writeData(in.readLine());
+        }
     }
 
 }

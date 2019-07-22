@@ -12,8 +12,11 @@ import io.netty.handler.codec.Delimiters;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.concurrent.GlobalEventExecutor;
+import org.junit.Test;
 
 public class ChatServer {
+
+
 
     //创建 DefaultChannelGroup 用来 保存所有连接的的 WebSocket channel
     private final ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
@@ -48,8 +51,10 @@ public class ChatServer {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test(){
         new ChatServer().start(8080);
     }
+
 
 }
