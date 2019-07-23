@@ -3,6 +3,7 @@ package com.netty.Server;
 
 import com.netty.Server.Handler.ChatHandler;
 import com.netty.Server.Handler.MesgHandler;
+import com.netty.Server.Handler.PictureHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.group.ChannelGroup;
@@ -49,6 +50,7 @@ public class NettyServerBootstrap {
                 p.addLast(new ObjectDecoder(ClassResolvers.cacheDisabled(null)));
                 p.addLast(new MesgHandler());
                 p.addLast(new ChatHandler(channelGroup));
+                p.addLast(new PictureHandler());
             }
         });
         ChannelFuture f = bootstrap.bind(port).sync();
