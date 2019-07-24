@@ -4,6 +4,7 @@ package com.netty.Server;
 import com.netty.Server.Handler.ChatHandler;
 import com.netty.Server.Handler.MesgHandler;
 import com.netty.Server.Handler.PictureHandler;
+import com.netty.Server.Handler.StringHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.group.ChannelGroup;
@@ -16,16 +17,14 @@ import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
-/**
- * Created by yaozb on 15-4-11.
- */
+
 public class NettyServerBootstrap {
     private int port;
     private SocketChannel socketChannel;
 
-    //åˆ›å»º DefaultChannelGroup ç”¨æ¥ ä¿å­˜æ‰€æœ‰è¿æ¥çš„çš„ WebSocket channel
+    //´´½¨ DefaultChannelGroup ÓÃÀ´ ±£´æËùÓĞÁ¬½ÓµÄµÄ WebSocket channel
     private final ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
-
+    private final ChannelGroup channelPictureGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
     public NettyServerBootstrap(int port) throws InterruptedException {
         this.port = port;
         bind();
@@ -50,7 +49,8 @@ public class NettyServerBootstrap {
                 p.addLast(new ObjectDecoder(ClassResolvers.cacheDisabled(null)));
                 p.addLast(new MesgHandler());
                 p.addLast(new ChatHandler(channelGroup));
-                p.addLast(new PictureHandler());
+                p.addLast(new PictureHandler(channelPictureGroup));
+                p.addLast(new StringHandler());
             }
         });
         ChannelFuture f = bootstrap.bind(port).sync();

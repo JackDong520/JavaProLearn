@@ -23,6 +23,7 @@ public class ChatHandler extends SimpleChannelInboundHandler<RequestTalk> {
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
         group.add(ctx.channel());
+        System.out.println("ChatHandler handlerAdded");
     }
 
     /**
@@ -34,14 +35,17 @@ public class ChatHandler extends SimpleChannelInboundHandler<RequestTalk> {
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         group.remove(ctx.channel());
+        System.out.println("ChatHandler handlerRemoved");
     }
 
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, RequestTalk msg) throws Exception {
         if (msg.getRequestStatus() == RequestType.PICTURE) {
-            System.out.println(msg.getObj());
+            System.out.println("ChatHandler "+msg.getObj());
             Channel incoming = ctx.channel();
+
+            //给组内的成员发送信息
             for (Channel channel : group) {
                 if (channel != incoming) {
                     channel.writeAndFlush(msg.getName()+":"+msg.getObj() + "\n");
