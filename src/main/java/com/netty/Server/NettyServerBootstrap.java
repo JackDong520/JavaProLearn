@@ -1,9 +1,7 @@
 package com.netty.Server;
 
 
-import com.netty.Server.Handler.ChatHandler;
 import com.netty.Server.Handler.MesgHandler;
-import com.netty.Server.Handler.PictureHandler;
 import com.netty.Server.Handler.StringHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -18,7 +16,7 @@ import io.netty.handler.codec.serialization.ObjectEncoder;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
 
-public class NettyServerBootstrap {
+public final class NettyServerBootstrap {
     private int port;
     private SocketChannel socketChannel;
 
@@ -29,6 +27,7 @@ public class NettyServerBootstrap {
         this.port = port;
         bind();
     }
+    public static ChannelPipeline p;
 
     private void bind() throws InterruptedException {
 
@@ -44,15 +43,17 @@ public class NettyServerBootstrap {
         bootstrap.childHandler(new ChannelInitializer<SocketChannel>() {
             @Override
             protected void initChannel(SocketChannel socketChannel) throws Exception {
-                ChannelPipeline p = socketChannel.pipeline();
+                p = socketChannel.pipeline();
                 p.addLast(new ObjectEncoder());
                 p.addLast(new ObjectDecoder(ClassResolvers.cacheDisabled(null)));
                 p.addLast(new MesgHandler());
-                p.addLast(new ChatHandler(channelGroup));
-                p.addLast(new PictureHandler(channelPictureGroup));
+
+
                 p.addLast(new StringHandler());
             }
         });
+
+
         ChannelFuture f = bootstrap.bind(port).sync();
         if (f.isSuccess()) {
             System.out.println("server start---------------");

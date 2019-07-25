@@ -3,8 +3,8 @@ package com.netty.Server.Handler;
 
 import com.netty.Server.NettyChannelMap;
 import com.netty.Share.Request.RequestPicture;
-import com.netty.Share.Request.RequestTalk;
-import com.netty.Share.Request.RequestType;
+
+import com.netty.Share.RequestType;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.socket.SocketChannel;
