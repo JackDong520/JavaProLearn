@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68318067-1452-4bb0-8508-ed4973700ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netty/Share/RequestType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/ChatHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/MesgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/MesgHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/PictureHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Server/NettyServerBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/Server/NettyServerBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/AbstractRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/Request3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/RequestPicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/RequestPicture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/RequestTalk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/RequestType.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -160,14 +150,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2439" />
+          <entry key="java" value="2498" />
           <entry key="txt" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2439" />
+          <entry key="JAVA" value="2498" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="1" />
         </counts>
@@ -210,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/StringHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,8 +255,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/Controller/GroupController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="-1376">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -365,9 +355,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/netty/Server/NettyServerBootstrap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netty/Share/TransportData/RoomData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netty/Share/RequestType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netty/Controller/GroupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netty/Share/Request/RequestPicture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/MesgHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/netty/Controller/GroupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/StringHandler.java" />
       </list>
     </option>
@@ -552,7 +542,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564063846012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564063917631" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -757,7 +747,7 @@
       <workItem from="1563943416580" duration="6946000" />
       <workItem from="1563967479386" duration="7299000" />
       <workItem from="1564031416561" duration="5031000" />
-      <workItem from="1564053181482" duration="9179000" />
+      <workItem from="1564053181482" duration="9425000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1563812577535</created>
@@ -808,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563978348079</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交">
+      <created>1564063877343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564063877343</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,13 +841,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57668000" />
+    <option name="totallyTimeSpent" value="57914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-172" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58872306" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58872306" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" sideWeight="0.41127694" side_tool="true" visible="true" weight="0.21908316" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -859,7 +856,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3564568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3564568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39807898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -932,7 +929,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/netty/Controller/GroupController.java</url>
-          <line>87</line>
+          <line>90</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -1202,8 +1199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/Controller/GroupController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="-1376">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -1224,7 +1221,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/Server/Handler/StringHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
