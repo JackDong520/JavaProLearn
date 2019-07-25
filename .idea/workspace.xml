@@ -3,26 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="68318067-1452-4bb0-8508-ed4973700ee6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/AbstractHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/AbstractHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/AbstractRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Handler1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Handler1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Handler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Handler2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Handler3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Handler3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Request1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Request1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Request2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Request2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility/Request3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DesignPatterns/ChainOfResponsibility_9/Request3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/AbstractHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/AbstractRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Handler1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Handler2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Handler3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Request1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Request2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/ChainOfResponsibility/Request3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DesignPatterns/s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaProLearn_jar/JavaProLearn.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaProLearn_jar/JavaProLearn.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/broadcast/Broadcast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/broadcast/Broadcast.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,14 +83,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1508" />
+          <entry key="java" value="1569" />
           <entry key="txt" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1508" />
+          <entry key="JAVA" value="1569" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -213,11 +195,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="66">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -241,11 +223,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Director.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+            <state relative-caret-position="176">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
@@ -361,9 +343,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Macbook.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Computer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Builder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/MacBookBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Director.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Builder.java" />
       </list>
     </option>
   </component>
@@ -547,7 +529,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564069728886" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564070039080" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -754,7 +736,7 @@
       <workItem from="1564031416561" duration="5031000" />
       <workItem from="1564053181482" duration="9425000" />
       <workItem from="1564067906266" duration="93000" />
-      <workItem from="1564068039309" duration="1616000" />
+      <workItem from="1564068039309" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1563812577535</created>
@@ -812,13 +794,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564063877343</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交">
+      <created>1564069839119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564069839119</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChatServer_test - 2019.07.23 at 14h 26m 59s.xml">
-      <configuration name="ChatServer.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ChatServer - 2019.07.23 at 14h 27m 02s.xml">
       <configuration name="ChatServer" configurationId="JUnit" />
     </history-entry>
@@ -846,16 +832,18 @@
     <history-entry file="GroupController_test - 2019.07.25 at 21h 47m 20s.xml">
       <configuration name="GroupController.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Director_test - 2019.07.25 at 23h 47m 39s.xml">
+      <configuration name="Director.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59623000" />
+    <option name="totallyTimeSpent" value="60006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58625734" visible="true" weight="0.22334754" />
-      <window_info id="Structure" order="1" sideWeight="0.4137427" side_tool="true" visible="true" weight="0.22334754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58603066" visible="true" weight="0.22334754" />
+      <window_info id="Structure" order="1" sideWeight="0.41396934" side_tool="true" visible="true" weight="0.22334754" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -863,7 +851,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.257329" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3626493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39807898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1137,10 +1125,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/MacBookBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="484">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,31 +1183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/MacBookBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/DesignPatterns/builder_3/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
