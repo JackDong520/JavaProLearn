@@ -1,4 +1,4 @@
-package com.DesignPatterns.ChainOfResponsibility;
+package com.DesignPatterns.ChainOfResponsibility_9;
 
 public abstract class AbstractRequest {
     private Object obj;//处理对象

@@ -1,4 +1,4 @@
-package com.DesignPatterns.ChainOfResponsibility;
+package com.DesignPatterns.ChainOfResponsibility_9;
 
 public class Request3 extends AbstractRequest {
 

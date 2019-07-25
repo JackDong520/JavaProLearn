@@ -1,7 +1,4 @@
-package com.DesignPatterns.ChainOfResponsibility;
-
-import com.DesignPatterns.ChainOfResponsibility.AbstractHandler;
-import com.DesignPatterns.ChainOfResponsibility.AbstractRequest;
+package com.DesignPatterns.ChainOfResponsibility_9;
 
 public class Handler1 extends AbstractHandler {
     @Override

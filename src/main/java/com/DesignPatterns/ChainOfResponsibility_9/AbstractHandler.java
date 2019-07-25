@@ -1,4 +1,4 @@
-package com.DesignPatterns.ChainOfResponsibility;
+package com.DesignPatterns.ChainOfResponsibility_9;
 
 public abstract class AbstractHandler {
     protected AbstractHandler nextHandler;//下一个节点

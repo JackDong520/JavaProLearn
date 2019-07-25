@@ -1,4 +1,4 @@
-package com.DesignPatterns.ChainOfResponsibility;
+package com.DesignPatterns.ChainOfResponsibility_9;
 
 public class Handler3 extends AbstractHandler {
     @Override
