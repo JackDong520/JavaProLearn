@@ -3,7 +3,7 @@ package com.netty.Share.TransportData;
 import java.io.Serializable;
 
 public class PaintData implements Serializable {
-
+    private int RoomHash;
     private int action_Status;
 
     private float startX;
@@ -13,6 +13,14 @@ public class PaintData implements Serializable {
     private float currentY;
 
     public PaintData() {
+    }
+
+    public int getRoomHash() {
+        return RoomHash;
+    }
+
+    public void setRoomHash(int roomHash) {
+        RoomHash = roomHash;
     }
 
     public int getAction_Status() {
