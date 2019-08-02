@@ -83,8 +83,6 @@ public class StringHandler extends SimpleChannelInboundHandler<String> {
                     System.out.println("you don't in the room");
                     break;
                 }
-
-
                 System.out.println(channelGroup);
                 incoming = ctx.channel();
                 for (Channel channel : channelGroup) {

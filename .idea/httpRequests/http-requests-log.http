@@ -1,3 +1,11 @@
+GET http://192.168.71.162:8000/api/v1/search?domain=baidu.com&q=baidu.com&page=1&type=all&token=c813400189962cbd718a18985515e2db
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-07-29T030457.200.json
+
+###
+
 GET http://192.168.1.108:8080/getStructedPageInfoFromDomain?domain=baidu.com
 Accept: */*
 Cache-Control: no-cache
